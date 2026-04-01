@@ -16,3 +16,8 @@ Templates should support:
 - risk classification
 - documentation and evidence
 - monitoring and reporting
+
+## Included Templates
+
+- [template-map.md](./template-map.md)
+- [core-template-bundle.md](./core-template-bundle.md)

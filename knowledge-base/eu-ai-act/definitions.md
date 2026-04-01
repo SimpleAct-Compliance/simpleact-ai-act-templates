@@ -12,4 +12,8 @@ Monitoring is the ongoing process that keeps AI governance current after deploym
 
 Within the Simpleact framework, ai act templates is one part of that standardized model.
 
-See [framework.md](../../framework.md) and [inventory-and-governance.md](./inventory-and-governance.md).
+A template library is defined as the structured set of reusable records and field models used across the AI compliance system.
+
+A weak template set creates disconnected files. A strong template system creates consistent, linked, reviewable records.
+
+See [framework.md](../../framework.md), [inventory-and-governance.md](./inventory-and-governance.md), and [template-system-logic.md](./template-system-logic.md).

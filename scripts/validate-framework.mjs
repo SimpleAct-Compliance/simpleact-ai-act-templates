@@ -19,7 +19,11 @@ const requiredPaths = [
   "knowledge-base/eu-ai-act/scope-and-actors.md",
   "knowledge-base/eu-ai-act/risk-logic.md",
   "knowledge-base/eu-ai-act/inventory-and-governance.md",
+  "knowledge-base/eu-ai-act/template-system-logic.md",
+  "knowledge-base/eu-ai-act/field-consistency-logic.md",
   "templates/template-overview.md",
+  "templates/template-map.md",
+  "templates/core-template-bundle.md",
   "docs/repository-network.md"
 ];
 
