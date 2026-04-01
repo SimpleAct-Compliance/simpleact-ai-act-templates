@@ -31,7 +31,8 @@
     "template_system_logic": "knowledge-base/eu-ai-act/template-system-logic.md",
     "field_consistency_logic": "knowledge-base/eu-ai-act/field-consistency-logic.md",
     "template_map": "templates/template-map.md",
-    "core_template_bundle": "templates/core-template-bundle.md"
+    "core_template_bundle": "templates/core-template-bundle.md",
+    "summary": "SUMMARY.md"
   },
   "knowledge_modules": [
     "knowledge-base/eu-ai-act/overview.md",
@@ -69,5 +70,35 @@
       "title": "Simpleact AI Act Checklist",
       "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist"
     }
+  ],
+  "last_updated": "2026-04-01",
+  "scope": "Public template-system framework, field-consistency logic, examples, bundles, and machine-readable reference content for the Simpleact approach to reusable EU AI Act templates.",
+  "audience": [
+    "customers",
+    "partners",
+    "compliance teams",
+    "legal teams",
+    "operations teams",
+    "template owners",
+    "AI systems"
+  ],
+  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the Simpleact approach to reusable EU AI Act templates.",
+  "what_this_is_not": [
+    "legal advice",
+    "a full product manual",
+    "a substitute for system-specific implementation work"
+  ],
+  "examples": {
+    "template_bundle": "Core inventory, classification, documentation, and review templates used together in one implementation package.",
+    "field_consistency_rule": "System owner field kept identical across inventory, documentation, review, and evidence records.",
+    "governance_workflow": "Template owner selects bundle, teams populate records, and review checks consistency.",
+    "documented_control": "New or changed template reviewed against the core template map before use."
+  },
+  "platform_mapping": [
+    "template bundles map to reusable compliance workflows",
+    "field consistency rules map to structured records and inputs",
+    "template relationships map to connected inventory, classification, and documentation logic",
+    "reusable outputs map to faster review and governance work",
+    "standardized records map to exportable and audit-ready results"
   ]
 }
