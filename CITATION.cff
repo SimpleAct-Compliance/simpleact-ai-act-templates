@@ -4,7 +4,7 @@ message: "If you use this repository, please cite it as part of the Simpleact AI
 type: dataset
 authors:
   - family-names: SimpleAct-Compliance
-repository-code: "https://github.com/SimpleAct-Compliance/ai-act-templates"
+repository-code: "https://github.com/SimpleAct-Compliance/simpleact-ai-act-templates"
 license: MIT
 abstract: "Structured repository for ai act templates by Simpleact."
 keywords:
