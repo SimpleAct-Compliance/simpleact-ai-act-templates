@@ -6,7 +6,7 @@ Vier Vorlagen, die in keiner anderen Sammlung dieses Netzes liegen — drei davo
 
 ## 1 Praktikenprüfung (Art. 5)
 
-Anwendbar seit **2.2.2025**. Einmal je Einsatzzweck, bei neuen Werkzeugen erneut.
+Anwendbar seit **2.2.2025**, Nr. 9 und 10 ab **2.12.2026**. Einmal je Einsatzzweck, bei neuen Werkzeugen erneut.
 
 **Einsatzzweck:** ___  **Werkzeug:** ___  **Geprüft am:** ___  **Geprüft durch:** ___
 
@@ -20,6 +20,10 @@ Anwendbar seit **2.2.2025**. Einmal je Einsatzzweck, bei neuen Werkzeugen erneut
 | 6 | **Emotionserkennung am Arbeitsplatz oder in Bildungseinrichtungen** | | |
 | 7 | biometrische Kategorisierung zur Ableitung sensibler Merkmale | | |
 | 8 | biometrische Echtzeit-Fernidentifizierung im öffentlichen Raum zu Strafverfolgungszwecken | | |
+| 9 | **intime Darstellungen identifizierbarer Personen ohne Einwilligung** erzeugen oder manipulieren — ab 2.12.2026 | | |
+| 10 | **Darstellungen sexuellen Kindesmissbrauchs** erzeugen oder manipulieren — ab 2.12.2026 | | |
+
+**Zu Nr. 9 und 10:** vom Digital Omnibus ergänzt (Art. 5 Abs. 1 Buchst. ba und bb), anwendbar **ab dem 2.12.2026** — mit eigenem Anwendungsdatum, nicht seit Inkrafttreten. Für Anbieter greift das Verbot auch, wenn ein solches Ergebnis vernünftigerweise vorhersehbar und reproduzierbar ist und keine Schutzmaßnahmen dagegen eingebaut sind. Betrifft jedes Produkt mit Bildgenerierung.
 
 **Zu Nr. 6 besonders prüfen:** Funktionen, die Gespräche nach Stimmung auswerten — in Analysewerkzeugen für Vertrieb, Personal und Schulung verbreitet. Die Unterscheidung: Analyse von **Kundentexten** ist nicht von diesem Verbot erfasst; Bewertung von **Beschäftigten** oder Lernenden schon.
 
@@ -36,7 +40,7 @@ Ein Treffer lässt sich nicht durch Dokumentation heilen. Die Dokumentation bele
 
 ## 2 Schulungsnachweis (Art. 4)
 
-Anwendbar seit **2.2.2025**, unabhängig von jeder Risikoklasse.
+Anwendbar seit **2.2.2025**, neu gefasst seit 27.7.2026, unabhängig von jeder Risikoklasse.
 
 **System:** ___  **Schulung am:** ___  **Durchgeführt von:** ___  **Dauer:** ___
 
@@ -70,7 +74,7 @@ Weitere Inhalte: ___
 
 Die letzte Zeile wird übersehen: Eine Schulung, die erklärt, wie das alte Modell irrt, passt nach einem Modellwechsel nicht mehr.
 
-**Eine allgemeine KI-Schulung erfüllt diesen Punkt nicht.** Art. 4 verlangt Kompetenz im Hinblick auf die eingesetzten Systeme.
+**Art. 4 schreibt die Form nicht vor.** Seit der Neufassung zum 27.7.2026 sind **Maßnahmen zur Förderung** der KI-Kompetenz verlangt, nicht ein sichergestelltes Niveau je Person. Eine Schulung mit Teilnahmeliste und Inhaltsangabe ist der Nachweis, der sich vorlegen lässt — und eine allgemeine KI-Schulung belegt nichts über das eingesetzte System.
 
 ---
 

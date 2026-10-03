@@ -34,7 +34,7 @@ Die Praktikenprüfung steht direkt nach dem Inventar, weil ein Treffer alles Wei
 
 ## Die drei Vorlagen für das, was heute gilt
 
-**Praktikenprüfung** (Art. 5, seit 2.2.2025): acht Zeilen mit Ergebnis und Datum. Besonders zu prüfen sind die zwei, die in gekaufter Software vorkommen — Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen, und ungezieltes Auslesen von Gesichtsbildern. Bei Nr. 6 ist die Unterscheidung wesentlich: Analyse von Kundentexten ist nicht erfasst, Bewertung von Beschäftigten oder Lernenden schon.
+**Praktikenprüfung** (Art. 5, seit 2.2.2025): zehn Zeilen mit Ergebnis und Datum. Besonders zu prüfen sind die zwei, die in gekaufter Software vorkommen — Emotionserkennung am Arbeitsplatz und in Bildungseinrichtungen, und ungezieltes Auslesen von Gesichtsbildern. Bei Nr. 6 ist die Unterscheidung wesentlich: Analyse von Kundentexten ist nicht erfasst, Bewertung von Beschäftigten oder Lernenden schon.
 
 **Schulungsnachweis** (Art. 4, seit 2.2.2025): Teilnahmeliste mit Datum **und Inhalt**. Eine Liste ohne Inhaltsangabe belegt Anwesenheit, nicht Kompetenz. Und eine Schulung, die erklärt, wie das alte Modell irrt, passt nach einem Modellwechsel nicht mehr.
 

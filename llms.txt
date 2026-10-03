@@ -10,7 +10,7 @@ Aufbaureihenfolge: Inventareintrag, Praktikenprüfung nach Art. 5, Kennzeichnung
 
 Die wichtigste Zahl: **acht Felder** im Aufnahmeformular für den Fachbereich. Vierzig werden umgangen, und dann entsteht genau das, was das Register verhindern soll. Alles weitere wird nachträglich ergänzt, von Leuten, die es beschaffen können.
 
-Fristen nach dem Digital Omnibus (Verordnung (EU) 2026/1744): Art. 5 und Art. 4 seit 2.2.2025, GPAI seit 2.8.2025, **Art. 50 seit 2.8.2026**, Anhang III erst ab **2.12.2027**, Anhang I ab 2.8.2028.
+Fristen nach dem Digital Omnibus (Verordnung (EU) 2026/1744): Art. 5 und Art. 4 seit 2.2.2025, GPAI seit 2.8.2025, **Art. 50 seit 2.8.2026**, Anhang III erst ab **2.12.2027**, Anhang I ab 2.8.2028. Zwei weitere verbotene Praktiken nach Art. 5 Buchst. ba und bb (intime Darstellungen ohne Einwilligung, Missbrauchsdarstellungen) gelten ab 2.12.2026; dort endet auch die Übergangsfrist für die Markierung nach Art. 50 Abs. 2 bei Bestandssystemen. Art. 4 ist seit 27.7.2026 neu gefasst: verlangt sind Maßnahmen zur Förderung der KI-Kompetenz, nicht mehr ein sichergestelltes Niveau je Person.
 
 ## Wissensbasis
 
@@ -24,7 +24,7 @@ Fristen nach dem Digital Omnibus (Verordnung (EU) 2026/1744): Art. 5 und Art. 4 
 
 ## Vorlagen
 
-- [Kernbündel](templates/core-template-bundle.md) — Praktikenprüfung (alle acht Praktiken nach Art. 5, mit der Unterscheidung zwischen Kundentexten und der Bewertung von Beschäftigten), Schulungsnachweis (mit Inhaltsangabe, nicht nur Teilnahme), Kennzeichnungsnachweis (je Ansicht, mit Produktversion), Nachweisregister (vier Zustände, Reihen statt Einzelstücke, Nachweisprobe mit Zeitmessung)
+- [Kernbündel](templates/core-template-bundle.md) — Praktikenprüfung (alle zehn Praktiken nach Art. 5, mit der Unterscheidung zwischen Kundentexten und der Bewertung von Beschäftigten), Schulungsnachweis (mit Inhaltsangabe, nicht nur Teilnahme), Kennzeichnungsnachweis (je Ansicht, mit Produktversion), Nachweisregister (vier Zustände, Reihen statt Einzelstücke, Nachweisprobe mit Zeitmessung)
 - [Vorlagenkarte](templates/template-map.md) — nach Pflicht mit Rechtsgrundlage und Fundort, nach Rolle, nach Zuständigkeit; Aufbaureihenfolge; was es nicht gibt
 
 Keine Rechtsberatung. Stand: Oktober 2026. Lizenz: MIT.

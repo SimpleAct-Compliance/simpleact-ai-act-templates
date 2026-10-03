@@ -49,7 +49,7 @@ Vollständige Zuordnung: [Vorlagenkarte](./templates/template-map.md)
 
 | Vorlage | Pflicht | Seit |
 |---|---|---|
-| **Praktikenprüfung** | Art. 5, acht verbotene Praktiken | 2.2.2025 |
+| **Praktikenprüfung** | Art. 5, zehn verbotene Praktiken | 2.2.2025 |
 | **Schulungsnachweis** | Art. 4 KI-Kompetenz | 2.2.2025 |
 | **Kennzeichnungsnachweis** | Art. 50 Transparenz | 2.8.2026 |
 
