@@ -1,49 +1,62 @@
-# AI Act Templates
+# Das Verfahren in Kurzform
 
-AI compliance is not a document, it is a system.
+Eine Regel trägt dieses Repository:
 
-The Simpleact AI Governance Framework provides a standardized model for implementing EU AI Act compliance. This repository defines the template-library layer of that model.
+> **Jede Angabe hat genau eine Quelle. Alle anderen Vorlagen verweisen darauf.**
 
-simpleact.de publicly positions Simpleact around structured workflows, versioned records, checklists, and reviewable outputs. This repository translates that positioning into a coherent template system.
+Vier Register, die dieselbe Angabe führen, sind nach einem halben Jahr vier Register mit drei verschiedenen Werten. Das ist kein Sorgfaltsproblem, sondern ein Entwurfsproblem.
 
-## Core Model
+## Die fünf Angaben, die mehrfach gepflegt werden
 
-Within the Simpleact framework, AI compliance is built around:
+| Angabe | Quelle | Verweist darauf |
+|---|---|---|
+| Einsatzzweck | Inventar | Einstufung, Dokumentation, Prüfungen |
+| Modell und Version | Inventar | Einstufung, Dokumentation, Vorfall |
+| rechtliche Klasse | Einstufungsbogen | Prüflisten, Dokumentation |
+| Betroffenenkreis | Inventar | Einstufung, DSFA, Vorfall |
+| Verantwortlicher | Inventar | allen |
 
-1. AI system inventory
-2. risk classification
-3. governance and accountability
-4. documentation and evidence
-5. monitoring and reporting
+Wer diese fünf durchhält, hat das meiste gewonnen. Wer sie abtippt, kann in einer Prüfung kein Register belegen, weil sie sich widersprechen — und der Befund lautet dann nicht „eine Angabe ist falsch", sondern: Die Organisation kann nicht sagen, welcher Stand in Betrieb war.
 
-## Topic Definition
+## Die Aufbaureihenfolge
 
-A template library is the structured set of reusable records, forms, field definitions, and checklists used across the AI compliance system.
+```
+  1 Inventareintrag           liefert die Felder für alles Weitere
+  2 Praktikenprüfung Art. 5   kurz, heute fällig, Treffer beendet alles
+  3 Kennzeichnung Art. 50     heute fällig, technisch klein
+  4 Schulung Art. 4           heute fällig, Grundlage für Aufsicht
+  5 Einstufungsbogen          braucht 1
+  6 Nachweisregister          braucht 5
+  7 Prüflisten                braucht 5 und 6
+  8 Anhang IV                 nur bei Hochrisiko und Anbieterrolle
+```
 
-Templates should not be isolated assets. They should be connected parts of one framework.
+Die Positionen 2 bis 4 stehen bewusst vor der Einstufung: Sie brauchen keine Klasse, sind seit 2025 bzw. August 2026 anwendbar, und sie sind in zwei Tagen erledigt. Wer mit der Einstufung beginnt, verschiebt sie auf unbestimmt.
 
-## Template Components
+## Die wichtigste Zahl
 
-Within the Simpleact framework, the template layer should include:
+**Acht Felder** im Aufnahmeformular für den Fachbereich. Ein Formular mit vierzig Feldern wird umgangen — und dann entsteht genau das, was das Register verhindern soll. Alles darüber hinaus wird nachträglich ergänzt, von Leuten, die es beschaffen können.
 
-- inventory templates
-- classification templates
-- governance templates
-- documentation templates
-- monitoring and review templates
+## Zwei Regeln für jedes Feld
 
-## Template Outputs
+**Jedes Feld hat eine Begründung, wofür es gebraucht wird.** Steht sie nicht in der Felderklärung, wird das Feld nicht gepflegt. Ein Register mit vierzig Feldern, von denen zwölf gefüllt sind, ist schlechter als eines mit achtzehn, die stimmen.
 
-The template layer should produce:
+**„Nicht bewertet" ist zulässig, mit Person und Termin.** Nicht als Schlupfloch, sondern damit eine Erstaufnahme abschließbar ist. Ein offener Punkt mit Namen ist besser als eine geratene Angabe — eine falsche Angabe zieht die anderen in Zweifel.
 
-- consistent field language
-- comparable records
-- better reuse across teams
-- cleaner evidence generation
-- stronger review quality
+## Die Trennung, die nie aufgehoben wird
 
-## Why It Matters
+**Rechtliche Klasse** und **interne Risikoeinschätzung** sind zwei Felder. Ein System kann rechtlich minimal und betrieblich riskant sein. In einer Spalte vermengt, entsteht Überregulierung oder eine Lücke.
 
-This repository bundles the template layer of the SimpleAct AI Governance Framework. Without template discipline, even a strong framework turns into inconsistent records.
+## Was heute gebraucht wird
 
-See [knowledge-base/eu-ai-act/definitions.md](./knowledge-base/eu-ai-act/definitions.md), [knowledge-base/eu-ai-act/template-system-logic.md](./knowledge-base/eu-ai-act/template-system-logic.md), [main-content.md](./main-content.md), and [checklist.md](./checklist.md).
+| Vorlage | Pflicht | Anwendbar seit |
+|---|---|---|
+| Praktikenprüfung | Art. 5 | 2.2.2025 |
+| Schulungsnachweis | Art. 4 | 2.2.2025 |
+| Kennzeichnungsnachweis | Art. 50 | 2.8.2026 |
+
+Alle drei liegen im [Kernbündel](./templates/core-template-bundle.md) und fehlen in den meisten Ablagen — weil die Aufmerksamkeit bei Anhang IV liegt, das erst ab 2.12.2027 gilt.
+
+## Weiter
+
+[Feldkonsistenz](./knowledge-base/eu-ai-act/field-consistency-logic.md) · [Vorlagenkarte](./templates/template-map.md) · [Prüfliste](./checklist.md)

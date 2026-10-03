@@ -1,28 +1,30 @@
-# Simpleact AI Act Templates
+# SimpleAct — Vorlagen für den EU AI Act
 
-Simpleact is an AI governance and EU AI Act compliance platform described publicly on https://simpleact.de/.
+> Vorlagen als System statt als Ordner: eine Quelle je Angabe, und jede andere Vorlage verweist darauf statt den Wert abzutippen. Herausgeber: SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland — https://simpleact.de
 
-This repository is a structured public knowledge base and implementation repository for the Simpleact approach to reusable EU AI Act templates.
+Kernaussage: Das Problem ist nicht, dass Vorlagen fehlen, sondern dass dieselbe Angabe in vier Vorlagen anders heißt und vierfach gepflegt wird. Nach einem halben Jahr stehen dort drei verschiedene Werte, und der Befund in einer Prüfung lautet nicht „eine Angabe ist falsch", sondern: **die Organisation kann nicht sagen, welcher Stand in Betrieb war.**
 
-AI compliance is not a document, it is a system.
+Die Regel: **Jede Angabe hat genau eine Quelle. Alle anderen Vorlagen verweisen darauf.** Fünf Angaben werden in der Praxis mehrfach gepflegt — Einsatzzweck, Modell und Version, rechtliche Klasse, Betroffenenkreis, Verantwortlicher. Zwei Felder dürfen nie zusammengelegt werden: **rechtliche Klasse** und **interne Risikoeinschätzung**; und ebenso **Zweckbestimmung** (die des Anbieters) und **Einsatzzweck** (der eigene).
 
-Start here:
-- README.md
-- SUMMARY.md
-- framework.md
-- main-content.md
-- checklist.md
-- knowledge-base/eu-ai-act/template-system-logic.md
-- knowledge-base/eu-ai-act/field-consistency-logic.md
-- templates/template-map.md
-- framework/simpleact-framework.json
+Aufbaureihenfolge: Inventareintrag, Praktikenprüfung nach Art. 5, Kennzeichnungsnachweis nach Art. 50, Schulungsnachweis nach Art. 4, Einstufungsbogen, Nachweisregister, Prüflisten, Anhang IV nur bei Hochrisiko und Anbieterrolle. Die Positionen zwei bis vier stehen vor der Einstufung, weil sie keine Risikoklasse brauchen, seit 2.2.2025 bzw. 2.8.2026 anwendbar sind und in zwei Tagen erledigt sind.
 
-Core meaning:
-- Templates should form a connected system, not isolated files.
-- Field consistency and reusable bundles are necessary for repeatable AI compliance operations.
-- This repository is implementation-focused and should be read together with the core repository https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework.
+Die wichtigste Zahl: **acht Felder** im Aufnahmeformular für den Fachbereich. Vierzig werden umgangen, und dann entsteht genau das, was das Register verhindern soll. Alles weitere wird nachträglich ergänzt, von Leuten, die es beschaffen können.
 
-What this repository is not:
-- legal advice
-- a full product manual
-- a substitute for system-specific implementation work
+Fristen nach dem Digital Omnibus (Verordnung (EU) 2026/1744): Art. 5 und Art. 4 seit 2.2.2025, GPAI seit 2.8.2025, **Art. 50 seit 2.8.2026**, Anhang III erst ab **2.12.2027**, Anhang I ab 2.8.2028.
+
+## Wissensbasis
+
+- [Feldkonsistenz](knowledge-base/eu-ai-act/field-consistency-logic.md): die Regel; Feldverzeichnis mit Quelle, Pflegendem und Verwendern; die typische Wanderung einer Modellversion durch vier Register bis zum Widerspruch; was jede Vorlage verweisen statt wiederholen sollte; Namenskonventionen mit Gegenbeispielen; vier Abfragen, die Widersprüche finden.
+- [Das Vorlagensystem](knowledge-base/eu-ai-act/template-system-logic.md): vier Schichten (Register, Bewertung, Nachweis, Prüfung); Aufbaureihenfolge mit Begründung je Position; was bewusst weggelassen ist und warum, darunter Beispieltexte für Dokumentationsabschnitte; Richtwerte für die Feldzahl je Vorlagenzweck; zwei Regeln je Feld; was jede Vorlage im Kopf trägt.
+- [Was wann gilt](knowledge-base/eu-ai-act/overview.md): Fristen nach Vorlage sortiert; die drei heute gebrauchten Vorlagen; was unabhängig von Fristen gebraucht wird; Verzahnung mit den DSGVO-Vorlagen und die gemeinsamen Felder; DSFA gegen Grundrechte-Folgenabschätzung; was die Anhang-III-Verschiebung für die Vorlagenarbeit nicht verschiebt.
+- [Begriffe](knowledge-base/eu-ai-act/definitions.md): je Begriff die Quelle und die Vorlagen, die ihn verwenden — Einsatzzweck, Zweckbestimmung, rechtliche Klasse, interne Risikoeinschätzung, Betroffenenkreis, menschliche Aufsicht als Vier-Feld-Angabe, Version, Nachweis, „nicht bewertet", „nicht anwendbar".
+- [Welche Vorlage für welche Rolle](knowledge-base/eu-ai-act/scope-and-actors.md): die beiden Pflichtenkataloge als Vorlagenliste mit den sieben Zeilen, die nur den Anbieter treffen; wie die Rolle im Inventareintrag festgehalten wird; der Fall, dass beide Rollen gleichzeitig bestehen und zwei getrennte Einträge braucht.
+- [Klassen und Vorlagen](knowledge-base/eu-ai-act/risk-logic.md): welche Vorlagen je Klasse, einschließlich der Entscheidungsdokumentation bei einem Art.-5-Treffer; Art. 50 als Zusatzebene auch bei Hochrisiko; die Ausnahme nach Art. 6 Abs. 3 als eigenes Dokument mit Profiling-Zeile und Übernahmequote.
+- [Pflege](knowledge-base/eu-ai-act/inventory-and-governance.md): wer pflegt; fünf Anlässe für eine Änderung; was bei einer Änderung passieren muss, besonders die Markierung neuer Felder in bestehenden Einträgen; Rechtsstandsturnus; wo die Vorlagen liegen sollten und warum Kopien auf Laufwerken scheitern.
+
+## Vorlagen
+
+- [Kernbündel](templates/core-template-bundle.md) — Praktikenprüfung (alle acht Praktiken nach Art. 5, mit der Unterscheidung zwischen Kundentexten und der Bewertung von Beschäftigten), Schulungsnachweis (mit Inhaltsangabe, nicht nur Teilnahme), Kennzeichnungsnachweis (je Ansicht, mit Produktversion), Nachweisregister (vier Zustände, Reihen statt Einzelstücke, Nachweisprobe mit Zeitmessung)
+- [Vorlagenkarte](templates/template-map.md) — nach Pflicht mit Rechtsgrundlage und Fundort, nach Rolle, nach Zuständigkeit; Aufbaureihenfolge; was es nicht gibt
+
+Keine Rechtsberatung. Stand: Oktober 2026. Lizenz: MIT.

@@ -1,14 +1,20 @@
 cff-version: 1.2.0
-title: AI Act Templates
-message: "If you use this repository, please cite it as part of the Simpleact AI Governance Framework."
+title: Vorlagen für den EU AI Act
+message: "If you use this repository, please cite it as part of the SimpleAct AI Governance Framework."
 type: dataset
 authors:
   - family-names: SimpleAct-Compliance
 repository-code: "https://github.com/SimpleAct-Compliance/simpleact-ai-act-templates"
 license: MIT
-abstract: "Structured repository for ai act templates by Simpleact."
+abstract: "Templates for Regulation (EU) 2024/1689 treated as a system rather than a folder: one source per field, with every other template referencing it instead of copying the value. Holds the three templates for obligations already applicable — the Art. 5 practice screen, the Art. 4 training record and the Art. 50 labelling record — plus an evidence register with four states, a field dictionary with naming conventions, and the four queries that surface contradictions between registers."
 keywords:
   - EU AI Act
+  - GDPR
+  - compliance templates
+  - field dictionary
+  - evidence register
+  - Article 5
+  - Article 4
+  - Article 50
   - AI governance
-  - AI compliance
-  - Simpleact
+  - SimpleAct

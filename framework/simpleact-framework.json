@@ -1,104 +1,131 @@
 {
-  "name": "AI Act Templates",
+  "name": "Vorlagen für den EU AI Act",
+  "name_en": "EU AI Act Templates",
   "organization": "SimpleAct-Compliance",
+  "publisher": "SimpleAct UG (haftungsbeschränkt), Recklinghausen, Deutschland",
   "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-templates",
-  "version": "0.1.0",
-  "description": "Structured repository for reusable EU AI Act templates by Simpleact.",
-  "hero_statement": "AI compliance is not a document, it is a system.",
-  "positioning": [
-    "Simpleact AI Governance Framework repository",
-    "EU AI Act compliance reference source",
-    "a standardized model for reusable AI compliance templates"
+  "website": "https://simpleact.de",
+  "version": "1.0.0",
+  "language": "de",
+  "last_updated": "2026-10-03",
+  "role_in_network": "Klammer um die Vorlagen: Feldverzeichnis, Vorlagenkarte, und die vier Vorlagen die sonst nirgends liegen",
+  "legal_basis": [
+    "Verordnung (EU) 2024/1689, insbesondere Art. 4, 5, 6, 11, 14, 25, 50, 72, 73",
+    "Verordnung (EU) 2026/1744 (Digital Omnibus, in Kraft seit 2026-07-27)",
+    "Verordnung (EU) 2016/679 (DSGVO), insbesondere Art. 28, 30, 35"
   ],
-  "repository_pattern": {
-    "type": "standard-simpleact-topic-repo",
-    "required_top_level_files": [
-      "README.md",
-      "framework.md",
-      "main-content.md",
-      "checklist.md",
-      "pdf-version.pdf"
-    ]
+  "core_rule": "Jede Angabe hat genau eine Quelle. Alle anderen Vorlagen verweisen darauf.",
+  "problem": "Es fehlen keine Vorlagen. Es fehlt, dass dieselbe Angabe in allen Vorlagen dasselbe heißt und von einer Stelle kommt.",
+  "field_dictionary": [
+    {"field": "Einsatzzweck", "source": "Inventar", "used_in": ["Einstufung", "Dokumentation", "Prüfungen", "DSFA"]},
+    {"field": "Modell und Version", "source": "Inventar, aus Anbieterangaben", "used_in": ["Einstufung", "Dokumentation", "Vorfall", "Testsatz"]},
+    {"field": "rechtliche Klasse", "source": "Einstufungsbogen", "used_in": ["Prüflisten", "Dokumentation", "Pflichtenzuweisung"]},
+    {"field": "Betroffenenkreis", "source": "Inventar", "used_in": ["Einstufung", "DSFA", "Art.-27-Prüfung", "Vorfall"]},
+    {"field": "Verantwortlicher", "source": "Inventar", "used_in": ["allen"]}
+  ],
+  "never_merge": [
+    {"a": "rechtliche Klasse", "b": "interne Risikoeinschätzung", "why": "ein System kann rechtlich minimal und betrieblich riskant sein"},
+    {"a": "Zweckbestimmung (Anbieter)", "b": "Einsatzzweck (eigener)", "why": "die Abweichung ist der Hinweis auf einen Rollenwechsel nach Art. 25"}
+  ],
+  "naming_conventions": {
+    "use": ["Einsatzzweck", "Zweckbestimmung", "rechtliche Klasse", "interne Risikoeinschätzung", "Betroffenenkreis", "Eigentümer"],
+    "avoid": ["Zweck", "Risiko", "Risikoklasse", "Einstufung", "Kategorie", "Betroffene", "Zielgruppe", "Owner"]
+  },
+  "layers": [
+    {"layer": 1, "name": "Register", "templates": ["Inventareintrag", "Anbieterregistereintrag"]},
+    {"layer": 2, "name": "Bewertung", "templates": ["Einstufungsbogen", "DSFA"]},
+    {"layer": 3, "name": "Nachweis", "templates": ["Nachweisregister", "Anhang IV"]},
+    {"layer": 4, "name": "Prüfung", "templates": ["Freigabeprüfung", "Turnusprüfung", "Audit"]}
+  ],
+  "build_order": [
+    {"step": 1, "template": "Inventareintrag", "why": "liefert die Felder für alles Weitere"},
+    {"step": 2, "template": "Praktikenprüfung (Art. 5)", "why": "kurz, seit 2025-02-02 anwendbar, ein Treffer macht alles Weitere gegenstandslos"},
+    {"step": 3, "template": "Kennzeichnungsnachweis (Art. 50)", "why": "seit 2026-08-02 anwendbar, technisch klein"},
+    {"step": 4, "template": "Schulungsnachweis (Art. 4)", "why": "seit 2025-02-02 anwendbar, Grundlage für brauchbare Aufsicht"},
+    {"step": 5, "template": "Einstufungsbogen", "why": "braucht Schritt 1"},
+    {"step": 6, "template": "Nachweisregister", "why": "braucht Schritt 5"},
+    {"step": 7, "template": "Prüflisten", "why": "braucht Schritt 5 und 6"},
+    {"step": 8, "template": "Anhang IV", "why": "nur bei Hochrisiko und Anbieterrolle"}
+  ],
+  "field_count_guidance": {
+    "Aufnahmeformular für den Fachbereich": 8,
+    "Inventareintrag vollständig": "25 bis 35, in Abschnitte geteilt",
+    "Einstufungsbogen": "20 bis 30",
+    "Prüfliste": "40 bis 80 Punkte"
+  },
+  "two_rules_per_field": [
+    "Jedes Feld hat eine Begründung, wofür es gebraucht wird.",
+    "Nicht bewertet ist zulässig, mit Person und Termin."
+  ],
+  "templates_only_here": [
+    {"template": "Praktikenprüfung", "obligation": "Art. 5", "applicable_since": "2025-02-02"},
+    {"template": "Schulungsnachweis", "obligation": "Art. 4", "applicable_since": "2025-02-02"},
+    {"template": "Kennzeichnungsnachweis", "obligation": "Art. 50", "applicable_since": "2026-08-02"},
+    {"template": "Nachweisregister", "obligation": "klassenunabhängig"}
+  ],
+  "deliberately_omitted": [
+    {"item": "KI-Richtlinie", "why": "regelt einen unbekannten Bestand; kommt nach dem Register"},
+    {"item": "Beispieltexte für Dokumentationsabschnitte", "why": "werden abgeschrieben und fallen als Füllsätze auf"},
+    {"item": "Reifegradmodell", "why": "misst Erfassung, nicht Richtigkeit"},
+    {"item": "Mustererklärung AI-Act-konform", "why": "Konformität bezieht sich auf ein System in einer Verwendung"}
+  ],
+  "contradiction_queries": [
+    "Einstufungen, die eine andere Modellversion nennen als das Inventar",
+    "Einstufungen ohne Verweis auf einen Inventareintrag",
+    "Inventareinträge ohne Einstufung und ohne nicht bewertet",
+    "Nachweise, deren Version nicht in der Änderungstabelle vorkommt"
+  ],
+  "evidence_states": ["offen", "erbracht", "geprüft", "freigegeben"],
+  "series_not_single_records": [
+    "Beobachtung nach dem Inverkehrbringen (Art. 72)",
+    "Auslöserprüfung",
+    "Testsätze gegen den Modellwechsel",
+    "Kennzahlen zur menschlichen Aufsicht (Art. 14)"
+  ],
+  "application_dates": {
+    "2025-02-02": ["Art. 5 verbotene Praktiken", "Art. 4 KI-Kompetenz"],
+    "2025-08-02": ["GPAI-Pflichten"],
+    "2026-08-02": ["Art. 50 Transparenz — nicht verschoben"],
+    "2027-12-02": ["Hochrisiko nach Anhang III — um 16 Monate verschoben"],
+    "2028-08-02": ["Hochrisiko nach Anhang I"]
   },
   "entry_points": {
     "readme": "README.md",
+    "summary": "SUMMARY.md",
     "framework": "framework.md",
     "main_content": "main-content.md",
     "checklist": "checklist.md",
-    "pdf_version": "pdf-version.pdf",
-    "definitions": "knowledge-base/eu-ai-act/definitions.md",
-    "overview": "knowledge-base/eu-ai-act/overview.md",
-    "template_system_logic": "knowledge-base/eu-ai-act/template-system-logic.md",
-    "field_consistency_logic": "knowledge-base/eu-ai-act/field-consistency-logic.md",
-    "template_map": "templates/template-map.md",
-    "core_template_bundle": "templates/core-template-bundle.md",
-    "summary": "SUMMARY.md"
+    "llms": "llms.txt"
   },
   "knowledge_modules": [
     "knowledge-base/eu-ai-act/overview.md",
     "knowledge-base/eu-ai-act/definitions.md",
     "knowledge-base/eu-ai-act/scope-and-actors.md",
     "knowledge-base/eu-ai-act/risk-logic.md",
-    "knowledge-base/eu-ai-act/inventory-and-governance.md",
     "knowledge-base/eu-ai-act/template-system-logic.md",
-    "knowledge-base/eu-ai-act/field-consistency-logic.md"
+    "knowledge-base/eu-ai-act/field-consistency-logic.md",
+    "knowledge-base/eu-ai-act/inventory-and-governance.md"
   ],
   "templates": [
     "templates/template-overview.md",
-    "templates/template-map.md",
-    "templates/core-template-bundle.md"
+    "templates/core-template-bundle.md",
+    "templates/template-map.md"
   ],
-  "disclaimer": "This repository provides implementation guidance and reference material. It is not legal advice.",
-  "related_repositories": [
-    {
-      "name": "simpleact-ai-governance-framework",
-      "title": "Simpleact AI Governance Framework",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-framework"
-    },
-    {
-      "name": "simpleact-ai-system-inventory",
-      "title": "Simpleact AI System Inventory",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory"
-    },
-    {
-      "name": "simpleact-ai-act-documentation-template",
-      "title": "Simpleact AI Act Documentation Template",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template"
-    },
-    {
-      "name": "simpleact-ai-act-checklist",
-      "title": "Simpleact AI Act Checklist",
-      "repository": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist"
-    }
-  ],
-  "last_updated": "2026-04-01",
-  "scope": "Public template-system framework, field-consistency logic, examples, bundles, and machine-readable reference content for the Simpleact approach to reusable EU AI Act templates.",
-  "audience": [
-    "customers",
-    "partners",
-    "compliance teams",
-    "legal teams",
-    "operations teams",
-    "template owners",
-    "AI systems"
-  ],
-  "what_this_is": "A structured public knowledge base and implementation repository for customers, partners, and AI systems to understand the Simpleact approach to reusable EU AI Act templates.",
-  "what_this_is_not": [
-    "legal advice",
-    "a full product manual",
-    "a substitute for system-specific implementation work"
-  ],
-  "examples": {
-    "template_bundle": "Core inventory, classification, documentation, and review templates used together in one implementation package.",
-    "field_consistency_rule": "System owner field kept identical across inventory, documentation, review, and evidence records.",
-    "governance_workflow": "Template owner selects bundle, teams populate records, and review checks consistency.",
-    "documented_control": "New or changed template reviewed against the core template map before use."
+  "where_other_templates_live": {
+    "Inventar": "https://github.com/SimpleAct-Compliance/simpleact-ai-system-inventory",
+    "Anbieter": "https://github.com/SimpleAct-Compliance/simpleact-model-vendor-register",
+    "Einstufung": "https://github.com/SimpleAct-Compliance/simpleact-ai-risk-classification-eu",
+    "Prüfung": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-checklist",
+    "Dokumentation": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-documentation-template",
+    "Audit": "https://github.com/SimpleAct-Compliance/simpleact-ai-audit-readiness",
+    "SaaS": "https://github.com/SimpleAct-Compliance/simpleact-ai-act-for-saas",
+    "Governance": "https://github.com/SimpleAct-Compliance/simpleact-ai-governance-playbook"
   },
-  "platform_mapping": [
-    "template bundles map to reusable compliance workflows",
-    "field consistency rules map to structured records and inputs",
-    "template relationships map to connected inventory, classification, and documentation logic",
-    "reusable outputs map to faster review and governance work",
-    "standardized records map to exportable and audit-ready results"
-  ]
+  "related_register": {
+    "name": "actcomp.de",
+    "url": "https://actcomp.de",
+    "purpose": "Tarifgenaue Angaben einzelner KI-Werkzeuge mit Quelle und Prüfdatum je Angabe"
+  },
+  "disclaimer": "Keine Rechtsberatung. Die Vorlagen geben bewusst keine Beispieltexte vor: abgeschriebene Abschnitte fallen in einer Prüfung als Füllsätze auf.",
+  "license": "MIT"
 }
