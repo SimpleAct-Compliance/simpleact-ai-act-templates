@@ -35,7 +35,7 @@ Die Positionen 2 bis 4 stehen bewusst vor der Einstufung: Sie brauchen keine Kla
 | eine KI-Richtlinie | regelt einen unbekannten Bestand; kommt nach dem Register, nicht davor |
 | Beispieltexte für Dokumentationsabschnitte | werden abgeschrieben, und abgeschriebene Abschnitte fallen als Füllsätze auf |
 | ein Reifegradmodell | misst, wie viel erfasst ist, nicht wie richtig es ist |
-| Vorlagen für die Konformitätsbewertung | die läuft mit einer benannten Stelle, nicht mit einer Vorlage |
+| Vorlagen für die Konformitätsbewertung | das Verfahren richtet sich nach Art. 43: bei Anhang III Nr. 2–8 interne Kontrolle nach Anhang VI, bei Nr. 1 ggf. eine benannte Stelle nach Anhang VII — in beiden Fällen kein Vorlagenthema |
 | eine Mustererklärung „AI-Act-konform" | Konformität bezieht sich auf ein System in einer Verwendung, nicht auf ein Unternehmen |
 
 Die zweite Zeile ist eine Entscheidung, über die man streiten kann. Der Grund: Ein ausformulierter Beispielabschnitt wird übernommen, und in einer Prüfung erkennt man übernommene Abschnitte daran, dass sie nichts über das konkrete System sagen. Die Vorlagen hier sagen deshalb, **was** gefragt ist und **wer** es liefert.
